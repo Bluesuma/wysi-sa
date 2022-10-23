@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WYSI Editor 2.0 | Team: Uet`nare</title>
+<style>
+	* { margin: 0; padding: 0; }
+	select { padding: 2px; }
+</style>
+<style>
+	@import url(css/suitup.css);
+</style>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/suitup.jquery.min.js"></script>
+<script src="js/extended-commands.suitup.jquery.js"></script>
+<script>
+$( function(){
+	$('.suitup-textarea')
+		.suitUp()
+		.show()
+});
+</script>
+</head>
+<body>
+
+<!--<script>
+	$(document).ready(function(){
+	  $("#show-hide").click(function(){
+		$("#output").toggle();
+	  });
+	});	
+	</script></!-->
+</head>
+<body>
+	<div class="suitup-textarea-pos">
+		<button onclick="myFunction()" onmouseout="outFunc()">
+  		<span class="myFunction" id="myTooltip"></span>
+  		Copy Text
+  		</button>
+		<textarea class="suitup-textarea" id="myInput"></textarea>			
+	</div>	
+	<!--<a class="show-hide" id="show-hide">
+		<img src="./css/show.png" alt="show result">
+	<a></!-->
+</body>
+</html>
